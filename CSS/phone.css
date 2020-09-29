@@ -1,0 +1,76 @@
+/* Responsiveness In Phone */
+body{
+    width: 100%;
+}
+
+/* Navigation Section */
+#navbar {
+  flex-direction: column;
+  height: 8rem;
+}
+#navbar ul li a{
+    font-size: 1.1rem;
+    padding: 0px 8px;
+}
+#logo{
+    margin: 3px 3px;
+}
+#logo img{
+    height: 70px;
+    margin: 2px;
+}
+
+/* Home Section */
+#home {
+    height: 590px;
+    padding: 3px 60px;
+    flex-direction: column;
+}
+#home::before{
+    top: 0px;
+    height: 715px;
+}
+#home p{
+    font-size: 1rem;
+}
+
+/* Services Section */
+#services {
+    flex-wrap: wrap;
+}
+#services .box {
+    width: 17.6rem;
+    padding: 10px;
+    margin: 2px auto;
+}
+#services .box img{
+    height: 5.8rem;
+    width: 5.8rem;
+}
+
+/* Clients Section */
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    height: 100px;
+    width: 100px;
+    padding: 2px 8px;
+}
+
+/* Contact Section */
+#contactbox form {
+    width: 70%;
+}
+
+/* Footer */
+
+
+/* Utility Classes */
+.ph{
+    font-size: 2.8rem;
+}
+.btn{
+    font-size: 1.1rem;
+    padding: 6px 8px;
+}
