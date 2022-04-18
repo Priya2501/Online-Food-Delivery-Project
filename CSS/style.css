@@ -67,7 +67,7 @@ html{
 #home {
   display: flex;
   flex-direction: column;
-  height: 420px;
+  height: 32rem;
   top: 0px;
   justify-content: center;
   align-items: center;
